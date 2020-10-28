@@ -39,7 +39,7 @@
                         <div class="cell hero-content-cell medium-6">
                             <div class="hero-content">
                                 <div class="company-brand">
-                                    <img src="./assets/img/logo2-1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/logo2-1.png" alt="">
                                 </div>
                                 <h1 class="headline-hero" data-aos="fade-up" data-aos-duration="1000">I’m one of the Lucky One’s</h1>
                                 <h2 class="tagline-hero">But so many aren’t</h2>
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                         <div class="cell hero-img-cell medium-6">
-                            <img class="hero-img" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" src="./assets/img/dog-1-1.webp" alt="">
+                            <img class="hero-img" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" src="<?php echo get_template_directory_uri()?>/assets/img/dog-1-1.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                             </p>
                         </div>
                         <div class="cell img-cell medium-6" data-aos="fade-right" data-aos-delay="300" data-aos-duration="750">
-                            <img src="./assets/img/rooster-1-1.webp" alt="">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/rooster-1-1.webp" alt="">
                         </div>
                         <div class="cell">
                             <p class="lead">Now not to crow too much, but...</p>
@@ -90,7 +90,7 @@
                             <div class="swiper-slide">
                                 <div class="grid-x ">
                                     <div class="slide-img cell medium-2 align-self-middle">
-                                        <img src="./assets/img/testimonial-spca.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial-spca.png" alt="">
                                     </div>
                                     <div class="slide-content cell medium-8 align-self-middle">
                                         <p class="lead-small">
@@ -108,7 +108,7 @@
                             <div class="swiper-slide">
                                 <div class="grid-x ">
                                     <div class="slide-img cell medium-2 align-self-middle">
-                                        <img src="./assets/img/testimonial-spca.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial-spca.png" alt="">
                                     </div>
                                     <div class="slide-content cell medium-8 align-self-middle">
                                         <p class="lead-small">
@@ -126,7 +126,7 @@
                             <div class="swiper-slide">
                                 <div class="grid-x ">
                                     <div class="slide-img cell medium-2 align-self-middle">
-                                        <img src="./assets/img/testimonial-spca.png" alt="">
+                                        <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial-spca.png" alt="">
                                     </div>
                                     <div class="slide-content cell medium-8 align-self-middle">
                                         <p class="lead-small">
@@ -153,7 +153,7 @@
                     </svg>    
                 </div>
                 <div class="section-divider-logo">
-                    <img src="./assets/img/logo-small.png" alt="">
+                    <img src="<?php echo get_template_directory_uri()?>/assets/img/logo-small.png" alt="">
                 </div>
             </section>
             <section class="section section-help">
@@ -162,7 +162,7 @@
                     <div class="grid-x grid-margin-x card-wrap">
                         <div class="cell medium-4 foa-card" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
                             <div class="card-img">
-                                <img src="./assets/img/help-1.png">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/help-1.png">
                             </div>
                             <div class="card-content">
                                 <h5 class="card-headline">Volunteer with us today.</h5>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="cell medium-4 foa-card" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
                             <div class="card-img">
-                                <img src="./assets/img/help-1.png">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/help-1.png">
                             </div>
                             <div class="card-content">
                                 <h5 class="card-headline">Volunteer with us today.</h5>
@@ -182,7 +182,7 @@
                         </div>
                         <div class="cell medium-4 foa-card" data-aos="fade-up" data-aos-delay="350" data-aos-duration="1000">
                             <div class="card-img">
-                                <img src="./assets/img/help-1.png">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/help-1.png">
                             </div>
                             <div class="card-content">
                                 <h5 class="card-headline">Volunteer with us today.</h5>
@@ -197,7 +197,7 @@
             </section>
             <section class="section section-social">
                 <div class="social-img hide-for-small-only">
-                    <img src="./assets/img/sheep-1-1.webp" alt="">
+                    <img src="<?php echo get_template_directory_uri()?>/assets/img/sheep-1-1.webp" alt="">
                 </div>
                 <div class="grid-container">
                     <h3 class="headline-center no-line">Let’s bleat our message together...</h3>
@@ -233,52 +233,52 @@
                         </div>
                         <div class="cell charities-cell" id="Container">
                             <div class="mix dogs">
-                                <img src="./assets/img/charities/ARANZ2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/ARANZ2.png" alt="">
                             </div>
                             <div class="mix dogs cats birds">
-                                <img src="./assets/img/charities/care-vets-150x86.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/care-vets-150x86.png" alt="">
                             </div>
                             <div class="mix dogs">
-                                <img src="./assets/img/charities/greyhounds-as-pets2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/greyhounds-as-pets2.png" alt="">
                             </div>
                             <div class="mix horses">
-                                <img src="./assets/img/charities/huha2-150x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/huha2-150x150.png" alt="">
                             </div>
                             <div class="mix cats">
-                                <img src="./assets/img/charities/kitten-inn-140x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/kitten-inn-140x150.png" alt="">
                             </div>
                             <div class="mix cats">
-                                <img src="./assets/img/charities/kittycat-fixers2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/kittycat-fixers2.png" alt="">
                             </div>
                             <div class="mix sheep-goats">
-                                <img src="./assets/img/charities/NZRDA-150x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/NZRDA-150x150.png" alt="">
                             </div>
                             <div class="mix horses sheep-goats">
-                                <img src="./assets/img/charities/outpawed-150x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/outpawed-150x150.png" alt="">
                             </div>
                             <div class="mix birds">
-                                <img src="./assets/img/charities/project-jonah-150x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/project-jonah-150x150.png" alt="">
                             </div>
                             <div class="mix dogs cats birds horses">
-                                <img src="./assets/img/charities/SAFE-150x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/SAFE-150x150.png" alt="">
                             </div>
                             <div class="mix dogs cats">
-                                <img src="./assets/img/charities/spca-horo-150x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/spca-horo-150x150.png" alt="">
                             </div>
                             <div class="mix dogs cats">
-                                <img src="./assets/img/charities/spca-wellington.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/spca-wellington.png" alt="">
                             </div>
                             <div class="mix horses">
-                                <img src="./assets/img/charities/UHARS-150x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/UHARS-150x150.png" alt="">
                             </div>
                             <div class="mix birds">
-                                <img src="./assets/img/charities/wellington-bird-trust-150x121.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/wellington-bird-trust-150x121.png" alt="">
                             </div>
                             <div class="mix sheep-goats">
-                                <img src="./assets/img/charities/wellington-rabbit-rescue2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/wellington-rabbit-rescue2.png" alt="">
                             </div>
                             <div class="mix cats">
-                                <img src="./assets/img/charities/cats-protection-league-139x150.png" alt="">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/charities/cats-protection-league-139x150.png" alt="">
                             </div>
                             
                         </div>
@@ -296,10 +296,10 @@
                         <div class="grid-x grid-padding-x">
                             <div class="cell cell-left auto">
                                 <div class="footer-img">
-                                    <img src="./assets/img/kitten-1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/kitten-1.png" alt="">
                                 </div>
                                 <div class="footer-logo">
-                                    <img src="./assets/img/logo2-1.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/logo2-1.png" alt="">
                                 </div>
                                 <p><span>(04) 298 2506</span>11 Maclean Street Paraparaumu Beach</p>
                             </div>
@@ -330,12 +330,12 @@
     </wrapper>
 
     
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="./assets/js/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/assets/js/anime.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./assets/js/jquery.mixitup.min.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/assets/js/jquery.mixitup.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./assets/js/custom.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/assets/js/custom.js"></script>
 </body>
 </html>

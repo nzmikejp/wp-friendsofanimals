@@ -221,14 +221,17 @@ nav{
 
         img {
             display: block;
-            width: 90%;
+            width: 100%;
         }
     }
 
     .social-icon {
-        color: $med-grey;
         text-align: center;
         font-size: 3em;
+    }
+
+    .social-icon a {
+        color: $med-grey;
     }
 }
 
@@ -462,10 +465,6 @@ nav{
     
         .lead {
             font-size: 1.9em;
-        }
-
-        .social-icon a {
-            color: $med-grey;
         }
     }
 

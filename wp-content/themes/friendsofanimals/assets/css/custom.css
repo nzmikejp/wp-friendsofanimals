@@ -462,13 +462,16 @@ nav:hover:after {
 
 .section-social .social-img img {
   display: block;
-  width: 90%;
+  width: 100%;
 }
 
 .section-social .social-icon {
-  color: #A0A0A0;
   text-align: center;
   font-size: 3em;
+}
+
+.section-social .social-icon a {
+  color: #A0A0A0;
 }
 
 .section-support .headline-center {
@@ -683,9 +686,6 @@ nav:hover:after {
   }
   .section-social .lead {
     font-size: 1.9em;
-  }
-  .section-social .social-icon a {
-    color: #A0A0A0;
   }
   .section-support .headline-center {
     font-size: 3.7em;
