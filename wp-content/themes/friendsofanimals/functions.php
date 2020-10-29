@@ -16,6 +16,13 @@ function register_resource() {
         'label'     => 'Testimonials',
     );
     register_post_type( 'testimonials', $args );
+    
+    //--- Register Categories ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Categories',
+    );
+    register_post_type( 'categories', $args );
 
     //--- Custom Section Taxonomy ---//
     $args = array(

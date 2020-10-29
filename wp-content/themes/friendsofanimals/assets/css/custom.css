@@ -424,7 +424,7 @@ nav:hover:after {
 
 .section-testimonial {
   background-color: #F1F1F1;
-  min-height: 22em;
+  min-height: 26em;
 }
 
 .section-testimonial .slide-img {
@@ -508,7 +508,7 @@ nav:hover:after {
 
 .footer-divider svg {
   display: block;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
 }
 
 .footer-divider svg path {

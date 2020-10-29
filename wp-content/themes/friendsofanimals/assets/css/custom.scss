@@ -174,7 +174,7 @@ nav{
 //--- Section Testimonial ---//
 .section-testimonial {
     background-color: $light-grey;
-    min-height: 22em;
+    min-height: 26em;
 
     .slide-img {
         display: flex;
@@ -261,7 +261,7 @@ nav{
 .footer-divider {
     svg {
         display: block;
-        margin-bottom: -1px;
+        margin-bottom: -2px;
     }
     svg path {
         fill: $dark-grey;

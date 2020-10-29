@@ -2,62 +2,25 @@
     <div class="grid-container">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="grid-x ">
-                        <div class="slide-img cell medium-2 align-self-middle">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/testimonial-spca.png" alt="">
-                        </div>
-                        <div class="slide-content cell medium-8 align-self-middle">
-                            <p class="lead-small">
-                                “Thank you so much for the food we received over the weekend.”
-                            </p>
-                            <p>
-                                "It is always hugely appreciated by us, and great that it was even delivered to our door. You and your Friends of Animal Charities are doing a wonderful job.”
-                            </p>
-                            <p>
-                                <strong>Horowhenua SPCA</strong> 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="grid-x ">
-                        <div class="slide-img cell medium-2 align-self-middle">
-                            <img src="./assets/img/testimonial-spca.png" alt="">
-                        </div>
-                        <div class="slide-content cell medium-8 align-self-middle">
-                            <p class="lead-small">
-                                “Thank you so much for the food we received over the weekend.”
-                            </p>
-                            <p>
-                                "It is always hugely appreciated by us, and great that it was even delivered to our door. You and your Friends of Animal Charities are doing a wonderful job.”
-                            </p>
-                            <p>
-                                <strong>Horowhenua SPCA</strong> 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="grid-x ">
-                        <div class="slide-img cell medium-2 align-self-middle">
-                            <img src="./assets/img/testimonial-spca.png" alt="">
-                        </div>
-                        <div class="slide-content cell medium-8 align-self-middle">
-                            <p class="lead-small">
-                                “Thank you so much for the food we received over the weekend.”
-                            </p>
-                            <p>
-                                "It is always hugely appreciated by us, and great that it was even delivered to our door. You and your Friends of Animal Charities are doing a wonderful job.”
-                            </p>
-                            <p>
-                                <strong>Horowhenua SPCA</strong> 
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
-                
+
+
+                <?php
+
+                    $args = array('post_type' => 'testimonials');
+                    // The Query
+                    $the_query = new WP_Query( $args );
+                    
+                    // The Loop
+                    while ( $the_query->have_posts() ) {
+                        $the_query->the_post();
+                        get_template_part('partials/testimonials/content', 'default');
+                    }
+
+                    /* Restore original Post Data */
+                    wp_reset_postdata();
+
+                ?>
+
             </div>
             <div class="swiper-pagination"></div>
         </div>
