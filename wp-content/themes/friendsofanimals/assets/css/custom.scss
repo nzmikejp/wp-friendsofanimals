@@ -80,7 +80,15 @@ nav{
 
 
 .menu .is-active > a {
-    background: $med-grey;
+    background-color: $med-grey;
+}
+
+.menu .current_page_item > a {
+    background-color: $med-grey;
+
+    &:hover {
+        background-color: darken($med-grey, 5%);
+    }
 }
 
 
