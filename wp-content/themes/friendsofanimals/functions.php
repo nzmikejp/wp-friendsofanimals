@@ -23,6 +23,22 @@ function register_resource() {
         'label'     => 'Categories',
     );
     register_post_type( 'categories', $args );
+    
+    //--- Register Charities ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Charities',
+    );
+    register_post_type( 'charities', $args );
+
+    //--- Custom Taxonomy For Charities ---//
+    $args = array(
+        'label'        => 'Filter',
+        'public'       => true,
+        'hierarchical' => true,
+        'show_in_nav_menus' => true,
+    );
+    register_taxonomy( 'filter', 'charities', $args );
 
     //--- Custom Section Taxonomy ---//
     $args = array(
