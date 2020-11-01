@@ -91,6 +91,18 @@ nav{
     }
 }
 
+//--- Header Index ---//
+.header-index {
+    background-color: $dark-grey;
+    position: relative;
+
+    .cell-brand {
+        display: block;
+        width: 5em;
+        margin: 1em 0; 
+    }
+}
+
 
 //--- Section Hero ---//
 .section-hero {
@@ -192,6 +204,80 @@ nav{
         padding-left: 0.5em;
     }
 }
+
+//--- Section Jumbotron ---//
+.section-jumbotron {
+    background-color: $light-grey;
+    min-height: 20em;
+
+    .grid-x {
+        padding-bottom: 5em;
+    }
+
+    .cell-content {
+        .lead {
+            text-transform: uppercase;
+            color: $dark-grey;
+        }
+
+        img {
+            display: block;
+            padding: 1.5em 0;
+        }
+    }
+
+    .cell-img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 1em;
+
+        img {
+            display: block;
+            width: 80%;
+            border-radius: 0.5em;
+        }
+    }
+}
+
+//--- Section Two Col ---//
+.section-two-col {
+    background-color: $white;
+    min-height: 20em;
+
+    .cell-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cell-img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 1em;
+
+        img {
+            display: block;
+            width: 80%;
+            border-radius: 0.5em;
+        }
+    }
+}
+
+//--- Section Three Col ---//
+.section-three-col {
+    .cell-content {
+        h1, h2, h3, h4, h5, h6 {
+            border-bottom: thin rgba(0,0,0,0.1) solid;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1em;
+            max-width: 80%;
+        }
+    }
+}
+
+
 
 //--- Section Help ---//
 .section-help {
@@ -483,6 +569,31 @@ nav{
     
         .headline-center + p {
             margin: 1em auto 2em auto;
+        }
+    }
+
+    //--- Section Jumbotron ---//
+    .section-jumbotron {
+        .cell-img {
+            justify-content: flex-end;
+            padding-top: 0;
+        }
+    }
+
+       //--- Section Two Col ---//
+    .section-two-col {
+        
+        .cell-img {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding-top: 0;
+
+            img {
+                display: block;
+                width: 80%;
+                border-radius: 0.5em;
+            }
         }
     }
 }

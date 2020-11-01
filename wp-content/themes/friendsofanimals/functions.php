@@ -30,6 +30,20 @@ function register_resource() {
         'label'     => 'Charities',
     );
     register_post_type( 'charities', $args );
+    
+    //--- Register Profiles ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Profiles',
+    );
+    register_post_type( 'profile', $args );
+    
+    //--- Register Volunteers ---//
+    $args = array(
+        'public'    => true,
+        'label'     => 'Volunteers',
+    );
+    register_post_type( 'volunteer', $args );
 
     //--- Custom Taxonomy For Charities ---//
     $args = array(

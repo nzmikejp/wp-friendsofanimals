@@ -18,7 +18,7 @@
             <?php the_content()?>
         </div>
         <div class="social-icon">
-            <a href="<?php echo $link['url']?>"><i class="fab fa-<?php echo $link['title']?>"></i></a>
+            <a href="<?php echo $link['url']?>" target="_blank"><i class="fab fa-<?php echo $link['title']?>"></i></a>
         </div>
     </div>
 </section>

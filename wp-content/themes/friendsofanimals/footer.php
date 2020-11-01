@@ -17,9 +17,9 @@
                                 <p><span>(04) 298 2506</span>11 Maclean Street Paraparaumu Beach</p>
                             </div>
                             <div class="cell cell-right medium-5 hide-for-small-only">
-                                <a href="#" class="button button-custom">donate now</a>
+                                <a href="/donate" class="button button-custom">donate now</a>
                                 <div class="footer-social">
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/friendsofanimalcharities/" target="_blank"><i class="fab fa-facebook"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
@@ -31,7 +31,7 @@
                         <div class="grid-x grid-margin-x">
                             <div class="cell">
                                 <p>
-                                    © Copyright 2012 - 2020  All Rights Reserved   |   Powered by <span>White Fox UX Auckland NZ</span>
+                                    &copy; Copyright 2012 - <?php echo date("Y");?>  All Rights Reserved   |   Powered by <span>White Fox UX Auckland NZ</span>
                                 </p>
                             </div>
                         </div>

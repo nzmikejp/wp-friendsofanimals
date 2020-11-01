@@ -20,12 +20,7 @@
                         }
                     
                     ?>
-
-                    <!-- <li class="taxonomy-item"><a class="filter" data-filter=".dogs">Dogs</a></li>
-                    <li class="taxonomy-item"><a class="filter" data-filter=".cats">Cats</a></li>
-                    <li class="taxonomy-item"><a class="filter" data-filter=".birds">Birds</a></li>
-                    <li class="taxonomy-item"><a class="filter" data-filter=".sheep-goats">Sheep/Goats</a></li>
-                    <li class="taxonomy-item"><a class="filter" data-filter=".horses">Horses</a></li> -->
+                    
                 </ul>
             </div>
             <div class="cell charities-cell" id="Container">
