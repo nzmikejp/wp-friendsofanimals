@@ -692,6 +692,29 @@ nav:hover:after {
   color: #313030;
 }
 
+#mapid {
+  height: 400px;
+  border-radius: 0.5em;
+}
+
+[type=color],
+[type=date],
+[type=datetime-local],
+[type=datetime],
+[type=email],
+[type=month],
+[type=number],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=time],
+[type=url],
+[type=week],
+textarea {
+  border-radius: 0.5em;
+}
+
 /*for small tablet - inclusive*/
 @media only screen and (min-width: 40em) {
   .headline {
